@@ -26,6 +26,6 @@ command: npm ci
   workflows: 
   test_my_app: 
    jobs: 
-   - test 
+   - test
 
 
