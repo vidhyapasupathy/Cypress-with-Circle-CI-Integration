@@ -25,7 +25,7 @@ command: npm ci
   command: npm run cytest 
   workflows: 
   test_my_app: 
-   jobs: 
+   jobs:
    - test
 
 
