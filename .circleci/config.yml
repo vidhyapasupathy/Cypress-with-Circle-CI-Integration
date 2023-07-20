@@ -1,12 +1,12 @@
 # Use the latest 2.1 version of the CircleCI pipeline process engine.
 # See: https://circleci.com/docs/configuration-reference
 version: 2.1
+# Define a job to be invoked later in a workflow.
 jobs: 
 test:
 docker:
 - image: cypress/browsers:node-16.18.1-chrome-109.0.5414.74-1-ff-109.0-edge-109.0.1518.52-1  
 
-# Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/configuration-reference/#jobs
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
