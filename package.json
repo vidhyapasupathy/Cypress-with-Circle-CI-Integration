@@ -1,0 +1,20 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run cytest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidhyapasupathy/Cypress-with-Circle-CI-Integration.git"
+  },
+  "author": "srividhya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidhyapasupathy/Cypress-with-Circle-CI-Integration/issues"
+  },
+  "homepage": "https://github.com/vidhyapasupathy/Cypress-with-Circle-CI-Integration#readme",
+  "keywords": [],
+  "description": ""
+}
