@@ -24,7 +24,7 @@ jobs:
             - ~/.npm
       - run:
           name: Run Tests
-          command: npm run cytest
+          command: npm run test
 
 workflows:
   version: 2
