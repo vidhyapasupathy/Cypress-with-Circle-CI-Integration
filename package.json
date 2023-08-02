@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npm run cytest"
+    "test": "npx cypress run --headless",
+    "debug": "npx cypress open" 
   },
   "repository": {
     "type": "git",
