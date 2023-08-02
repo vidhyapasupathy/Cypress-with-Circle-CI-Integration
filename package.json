@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/cypress run --browser chrome --headless",
-    "debug": "npx cypress open" 
+    "debug": "npx cypress open"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   },
   "homepage": "https://github.com/vidhyapasupathy/Cypress-with-Circle-CI-Integration#readme",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cypress": "^12.17.3"
+  }
 }
